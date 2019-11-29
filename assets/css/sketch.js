@@ -6,6 +6,9 @@ function setup() {
         window.innerWidth,
         window.innerHeight
     );
+    
+        
+      
     background(0);
     var x=0;
     for(var i=0;i<=width/10;i++){
@@ -17,6 +20,9 @@ function setup() {
 
     textSize(symbol_size);
 }
+function windowResized() {
+    resizeCanvas(window.innerWidth, window.innerHeight);
+  }
 function Catana(x,y,speed,first){
     this.x=x;
     this.y=y;
@@ -82,4 +88,5 @@ function draw() {
     });
 
     image(img,(window.innerWidth-img.width)/2,(window.innerHeight-img.height)/2);
+    // image(img,(window.innerWidth-img.width),(window.innerHeight-img.height)/2);
 }

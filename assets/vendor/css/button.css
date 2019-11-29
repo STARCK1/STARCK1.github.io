@@ -1,0 +1,33 @@
+.regButton{
+   
+    /* top:50%;
+    left:50%;
+    position: relative;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.4s; 
+  /* transition-duration: 0.4s; */ 
+  background-color:rgb(248, 39, 2); 
+  border: 3px solid rgb(248, 39, 2);
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+  top:50%;
+  left:50%;
+  position: relative;
+
+}
+.bChange{
+    background-color: transparent;
+    color: white;
+    border: 3px solid rgb(248, 39, 2);
+}
+.bChange:hover{
+    background-color:rgb(248, 39, 2) ;
+}
