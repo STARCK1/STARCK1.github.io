@@ -32,3 +32,9 @@
 .bChange:hover{
     background-color:rgb(248, 39, 2) ;
 }
+@media (max-width:767px){
+    .center-mobile{
+        display:table;
+        margin:0 auto;
+    }
+}
