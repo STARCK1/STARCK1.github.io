@@ -1,0 +1,50 @@
+*{
+   padding: 0;
+    margin: 0;
+}
+#preloader{
+    position:fixed;
+    opacity: 100%;
+    padding: 0;
+    margin:0;
+    width:100%;
+    height:100%;
+    background: black;
+    z-index: 99999;
+
+}
+/*=main-navbar
+for the navbar
+--------------------------*/
+#main-navbar {
+    background-color: #070707;
+    background-image: linear-gradient(to left, #000000, rgba(0, 0, 0, 0.98));
+}
+
+
+
+/*=hero
+for the page hero
+--------------------------*/
+#hero {
+    background-position: center -230px;
+    color: rgba(7, 7, 7, 0);
+    background-image: url('../../assets/img/hero.png');
+    height: 420px;
+}
+
+/*=textarea
+prevent textarea from resize
+--------------------------------*/
+textarea.resize-none {
+    resize: none;
+}
+
+/*=footer-social-icons
+--------------------------------*/
+.footer-social-icons .fa {
+    color: #777;
+}
+.footer-social-icons .fa:hover {
+    color: #333;
+}
