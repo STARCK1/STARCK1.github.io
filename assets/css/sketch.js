@@ -87,6 +87,6 @@ function draw() {
         stream.render();
     });
 
-    image(img,(window.innerWidth-img.width)/2,(window.innerHeight-img.height)/2);
+    // image(img,(window.innerWidth-img.width)/2,(window.innerHeight-img.height)/2);
     // image(img,(window.innerWidth-img.width),(window.innerHeight-img.height)/2);
 }
