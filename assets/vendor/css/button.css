@@ -1,11 +1,8 @@
+.buttonDiv{
+    text-align: center;
+}
 .regButton{
    
-    /* top:50%;
-    left:50%;
-    position: relative;
-    border-radius: 5px;
-    -webkit-transition-duration: 0.4s; 
-  /* transition-duration: 0.4s; */ 
   background-color:rgb(248, 39, 2); 
   border: 3px solid rgb(248, 39, 2);
   color: white;
