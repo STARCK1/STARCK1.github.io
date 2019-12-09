@@ -29,10 +29,11 @@ for the page hero
 #hero {
     background-position: center ;
     color: rgba(7, 7, 7, 0);
-    background-image: url('../../assets/img/hero1.png');
+    /* background-image: url('../../assets/img/hero1.png'); */
     height: 420px;
     background-repeat:no-repeat;
     background-size:auto;
+    z-index: 0;
     
  
 }
@@ -42,6 +43,7 @@ for the page hero
     
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 @media(min-width:750px){
     #theme-desc{
@@ -78,4 +80,76 @@ textarea.resize-none {
 }
 .footer-social-icons .fa:hover {
     color: #333;
+}
+
+
+#slider {
+	overflow: hidden;
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+#introDetail{
+    z-index: 2;
+}
+
+/* Floating button */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	/* background-color:#0C9; */
+	color:#FFF;
+	/* border-radius:50px; */
+	text-align:center;
+    /* box-shadow: 2px 2px 3px #999; */
+    z-index: 90999999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+#fbutton{
+    height: 30px;
+    width: 90px;
 }
