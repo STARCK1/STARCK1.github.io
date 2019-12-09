@@ -27,10 +27,41 @@ for the navbar
 for the page hero
 --------------------------*/
 #hero {
-    background-position: center -230px;
+    background-position: center ;
     color: rgba(7, 7, 7, 0);
-    background-image: url('../../assets/img/hero.png');
+    background-image: url('../../assets/img/hero1.png');
     height: 420px;
+    background-repeat:no-repeat;
+    background-size:auto;
+    
+ 
+}
+#image-block {
+    align-items:center;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+}
+@media(min-width:750px){
+    #theme-desc{
+        display: flex;
+        height: 200px;
+        justify-content: space-around;
+        
+        }
+        #desc-logo{
+            
+            padding: 25px 50px 75px 100px;
+        }
+}
+
+
+.theme-logo {
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    box-shadow: rgb(3, 99, 27) 2px 5px 5px;
 }
 
 /*=textarea
