@@ -91,10 +91,10 @@ body{
 	}
 	.countd{
 		display:inline-block;
-		width:45px;
-		height:45px;
+		width:47px;
+		height:47px;
 		border:2px solid;
-		margin:0 10px;
+		margin:0 9px;
 		font-size: 6px;
 		border-radius:50%;
 		/* overflow:hidden; */
