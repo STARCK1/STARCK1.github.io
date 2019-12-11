@@ -11,14 +11,14 @@ $(function () {
     /**
      * contact form
      */
-    $("#contact-form").on("submit", function () {
+//     $("#contact-form").on("submit", function () {
 
-        /**
-         * logic to make AJAX call to some RESTful API
-         * goes here...
-         */
+//         /**
+//          * logic to make AJAX call to some RESTful API
+//          * goes here...
+//          */
 
-        return false;
-    });
+//         return false;
+//     });
 
 });
