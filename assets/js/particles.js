@@ -88,7 +88,7 @@ var pJS = function(tag_id, params){
       array: []
     },
     interactivity: {
-      detect_on: '',
+      detect_on: 'window',
       events: {
         onhover: {
           enable: true,

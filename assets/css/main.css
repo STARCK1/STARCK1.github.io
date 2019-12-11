@@ -2,6 +2,52 @@ body{
    padding: 0;
     margin: 0;
 }
+.countdown{
+	padding: 0;
+	margin: 0;
+	width:100%;
+	position:relative;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	text-align:center;
+	color:black;
+	background-image: linear-gradient(to left, rgba(161, 158, 182, 0.73), rgba(161, 158, 182, 0.98));
+
+
+}
+.countdown h1{
+	text-transform:uppercase;
+	fonst-size:60px;
+	margin:20px;
+	letterspacing:10px;
+}
+.countdown h2{
+	fonst-size:20px;
+	margin:0px;
+	font-size:20px;
+	font-weight:500;
+	font-style:italic;
+}
+.count{
+	margin:40px 0;
+}
+.countd{
+	display:inline-block;
+	width:80px;
+	height:80px;
+	border:2px solid;
+	margin:0 30px;
+	font-size: 12px;
+	border-radius:50%;
+	overflow:hidden;
+
+}
+.countd span{
+	display:block;
+	font-size:26px;
+	margin-top:14px;
+}
 #preloader{
     position:fixed;
     opacity: 100%;
@@ -19,6 +65,7 @@ for the navbar
 #main-navbar {
     background-color: #070707;
     background-image: linear-gradient(to left, #000000, rgba(0, 0, 0, 0.98));
+
 }
 canvas {
 	display:block;
@@ -34,7 +81,7 @@ for the page hero
     background-position: center ;
     color: rgba(7, 7, 7, 0);
     /* background-image: url('../../assets/img/hero1.png'); */
-    height: 420px;
+    height: 400px;
     background-repeat:no-repeat;
     background-size:auto;
     z-index: 0;

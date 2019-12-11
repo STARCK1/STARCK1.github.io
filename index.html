@@ -26,12 +26,7 @@
 
 </head>
 <body onload="loadcomplete()">
-        <!-- Floating Button -->
-        <a href="https://google.com" class="float">
-                <!-- <i class="my-float">Register</i> -->
-                <img src="./assets/img/logo/rb.png" id="fbutton">
-                </a>
-        <!-- Floating Button End -->
+
     
 <div id="preloader">
     <iframe height="100%" src="assets/css/matrix.html" width="100%"></iframe>
@@ -40,6 +35,12 @@
             <canvas class="particles-js-canvas-el" width="1583" height="497" style="width: 100%; height: 100%;"></canvas>
         </div>
             <div id="asd">
+                <!-- Floating Button -->
+                <a href="https://google.com" class="float">
+                    <!-- <i class="my-float">Register</i> -->
+                    <img src="./assets/img/logo/rb.png" id="fbutton">
+                </a>
+                <!-- Floating Button End -->
             <nav class="navbar  navbar-expand-lg navbar-dark bg-primary"
                  id="main-navbar">
 
@@ -175,7 +176,65 @@
 
 
             </div>
-            <!--/ #hero -->
+                <!--/ #hero -->
+
+                <!--/ COUNTDOWN TIMER -->
+
+                    <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 py-5">
+                <div class="countdown" id="countdown-timer">
+                    <h1> Register Now</h1>
+                    <h2>And Get a Chance to Win Exciting Prices</h2>
+                    <div class="count">
+                        <div class="countd">
+                            <span id="days">00</span>
+                            DAYS
+                        </div>
+                        <div class="countd">
+                            <span id="hours">00</span>
+                            HOURS
+                        </div>
+                        <div class="countd">
+                            <span id="minutes">00</span>
+                            MINUTES
+                        </div>
+                        <div class="countd">
+                            <span id="seconds">00</span>
+                            SECONDS
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+                <script type="text/javascript">
+                    var count=new Date("Mar 1,2020 00:00:00").getTime();
+                    var countdown=document.getElementById('countdown-timer');
+                    var x=setInterval(function(){
+                        var now=new Date().getTime();
+                        var d=count-now;
+                        var days=Math.floor(d/(1000*60*60*24));
+                        var hours=Math.floor((d%(1000*60*60*24))/(1000*60*60));
+                        var minutes=Math.floor((d%(1000*60*60))/(1000*60));
+                        var seconds=Math.floor((d%(1000*60))/1000);
+                        document.getElementById("days").innerHTML=days;
+                        document.getElementById("hours").innerHTML=hours;
+                        document.getElementById("minutes").innerHTML=minutes;
+                        document.getElementById("seconds").innerHTML=seconds;
+                        if(d<=0){
+                            clearInterval(x);
+                            countdown.style.display='none';
+
+
+
+                        }
+                    },1000);
+                </script>
+
+
+
+
+
+                <!--/ COUNTDOWN TIMER -->
             <a name="about"></a>
             <div id="about-section">
                 <div class="container">
