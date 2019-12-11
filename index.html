@@ -872,7 +872,10 @@ The aim is to automate devices to bridge this gap.
         var preloader=document.getElementById('preloader');
     
         function loadcomplete(){
-            preloader.style.display='none';
+            t=setTimeout(function(){
+                preloader.style.display='none';
+            },2000);
+
         }
         </script>
 </body>

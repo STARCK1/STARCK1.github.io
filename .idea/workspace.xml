@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3429bb6d-2df4-47c4-99c0-6a733cbe2653" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/particles.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/particles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/json/particles.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/json/particles.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +53,7 @@
       <workItem from="1575986785494" duration="2956000" />
       <workItem from="1575991106927" duration="2479000" />
       <workItem from="1575996894015" duration="717000" />
-      <workItem from="1576040250293" duration="2151000" />
+      <workItem from="1576040250293" duration="2627000" />
     </task>
     <task id="LOCAL-00001" summary="Removed Prizes and Edited Tags for better Understanding">
       <created>1575991741327</created>
@@ -128,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575992874683</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added Countdown Timer">
+      <created>1576045248280</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576045248280</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,13 +141,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removed Prizes and Edited Tags for better Understanding" />
     <MESSAGE value="Changing preloader function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing preloader function" />
+    <MESSAGE value="Added Countdown Timer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Countdown Timer" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="519" y="148" width="872" height="818" key="CommitChangelistDialog2" timestamp="1575992874275">
+    <state x="519" y="148" width="872" height="818" key="CommitChangelistDialog2" timestamp="1576045248076">
       <screen x="0" y="37" width="1920" height="1043" />
     </state>
-    <state x="519" y="148" width="872" height="818" key="CommitChangelistDialog2/0.37.1920.1043@0.37.1920.1043" timestamp="1575992874275" />
+    <state x="519" y="148" width="872" height="818" key="CommitChangelistDialog2/0.37.1920.1043@0.37.1920.1043" timestamp="1576045248076" />
     <state x="182" y="125" width="1536" height="864" key="DiffContextDialog" timestamp="1575996999969">
       <screen x="0" y="37" width="1920" height="1043" />
     </state>
@@ -152,10 +157,10 @@
       <screen x="0" y="37" width="1920" height="1043" />
     </state>
     <state x="743" y="315" width="424" height="484" key="FileChooserDialogImpl/0.37.1920.1043@0.37.1920.1043" timestamp="1575989737435" />
-    <state x="75" y="293" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1575992877381">
+    <state x="75" y="293" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1576045252888">
       <screen x="0" y="37" width="1920" height="1043" />
     </state>
-    <state x="75" y="293" width="800" height="528" key="Vcs.Push.Dialog.v2/0.37.1920.1043@0.37.1920.1043" timestamp="1575992877381" />
+    <state x="75" y="293" width="800" height="528" key="Vcs.Push.Dialog.v2/0.37.1920.1043@0.37.1920.1043" timestamp="1576045252888" />
     <state x="728" y="477" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576043627242">
       <screen x="0" y="37" width="1920" height="1043" />
     </state>
