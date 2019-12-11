@@ -15,7 +15,7 @@ h1:after
     background: #333;
     display: block;
     height:3px;
-    width: 550px;
+    width: 110px;
     margin: 10px auto;
 
 }
@@ -89,18 +89,3 @@ bottom:0;
 .img-box:after, .img-box ul, .img-box ul li{
     transition: all 0.5s ease-in-out 0s;
 }
-
-#list {
-    display: flex; /* displays flex-items (children) inline */
-  }
-  
-  #list > li {
-    flex: 1; /* each takes 33.33% of the parent's width; adjust to your needs */
-    display: flex;
-    justify-content: center; /* centers them horizontally (instead of text-align: center) */
-    align-items: center; /* and vertically */
-    height: 50px;
-  }
-@media (max-width: 468px) {
-    #list {flex-direction: column} /* stacks flex-items vertically */
-  }
