@@ -253,7 +253,7 @@ textarea.resize-none {
 	/* border-radius:50px; */
 	text-align:center;
     /* box-shadow: 2px 2px 3px #999; */
-    z-index: 90999999;
+    z-index: 99998;
 }
 
 .my-float{
