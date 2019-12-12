@@ -1,6 +1,9 @@
 .team{
     margin: 75px 0;
 }
+.backButton{
+    align:"right";
+}
 h1{
     text-align: center;
     font-weight: bold;
