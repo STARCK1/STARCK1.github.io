@@ -181,7 +181,7 @@ for the page hero
     width: 130px;
     box-shadow: rgb(3, 99, 27) 2px 5px 5px;
 }
-@media(max-width:750px){
+@media(min-width:750px){
     #theme-desc{
         display: flex;
         height: 200px;
@@ -197,6 +197,20 @@ for the page hero
 		#aboutDesc{
 			text-align: justify;
   text-justify: auto;
+		}
+}
+@media(max-width:750px){
+  
+		#aboutDesc{
+			text-align: justify;
+  text-justify: auto;
+		}
+		#desc-logo{
+            
+			
+			text-align: justify;
+			
+  
 		}
 }
 
