@@ -164,7 +164,9 @@ for the page hero
         }
         #desc-logo{
             
-            padding: 25px 50px 75px 100px;
+			padding: 25px 50px 75px 100px;
+			text-align: justify;
+  text-justify: inter-word;
         }
 }
 
