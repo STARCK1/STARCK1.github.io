@@ -150,7 +150,7 @@ for the page hero
 #image-block {
     align-items:center;
     text-align: center;
-    
+    padding-top: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -179,7 +179,8 @@ for the page hero
     border-radius: 50%;
     height: 130px;
     width: 130px;
-    box-shadow: rgb(3, 99, 27) 2px 5px 5px;
+	box-shadow: rgb(3, 99, 27) 2px 5px 5px;
+	
 }
 @media(min-width:750px){
     #theme-desc{
@@ -217,7 +218,7 @@ for the page hero
 			text-justify: auto;
 		}
 		#theme-title{
-			padding-top: 15px;
+			padding-top: 12px;
 		}
 }
 
