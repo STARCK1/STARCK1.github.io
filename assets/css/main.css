@@ -166,8 +166,12 @@ for the page hero
             
 			padding: 25px 50px 75px 100px;
 			text-align: justify;
-  text-justify: inter-word;
-        }
+  text-justify: auto;
+		}
+		#aboutDesc{
+			text-align: justify;
+  text-justify: auto;
+		}
 }
 
 
