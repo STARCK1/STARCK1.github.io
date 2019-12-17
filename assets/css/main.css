@@ -224,6 +224,7 @@ for the page hero
 		#theme-title{
 			padding-top: 12px;
 		}
+	
 }
 
 
@@ -319,4 +320,9 @@ textarea.resize-none {
 #fbutton{
     height: 30px;
     width: 90px;
+}
+#Rbutton{
+	background-color: red;
+	color: #FFF;
+	border-radius: 12%;
 }
