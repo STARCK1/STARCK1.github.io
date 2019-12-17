@@ -52,7 +52,7 @@ justify-content: center;
 	display:block;
 	font-size:26px;
 	margin-top:20px;
-	color:rgb(168, 0, 0);
+	color:red;
 }
 @media(max-width:450px){
 	
@@ -320,9 +320,4 @@ textarea.resize-none {
 #fbutton{
     height: 30px;
     width: 90px;
-}
-#Rbutton{
-	background-color: red;
-	color: #FFF;
-	border-radius: 12%;
 }
