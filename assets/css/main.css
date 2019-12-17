@@ -52,7 +52,7 @@ justify-content: center;
 	display:block;
 	font-size:26px;
 	margin-top:20px;
-	color:orangered;
+	color:rgb(216, 5, 5);
 }
 @media(max-width:450px){
 	
@@ -105,7 +105,8 @@ justify-content: center;
 	.countd span{
 		display:block;
 		font-size:16px;
-		color:orangered;
+		color:rgb(216, 5, 5);
+
 		margin-top:10px;
 		/* margin-top:40; */
 		top: 50%;
