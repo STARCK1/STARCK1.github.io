@@ -216,6 +216,9 @@ for the page hero
 			text-align: justify;
 			text-justify: auto;
 		}
+		#theme-title{
+			padding-top: 12px;
+		}
 }
 
 
