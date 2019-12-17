@@ -212,6 +212,10 @@ for the page hero
 			
   
 		}
+		#schduleDesc{
+			text-align: justify;
+			text-justify: auto;
+		}
 }
 
 
