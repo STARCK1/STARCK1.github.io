@@ -166,7 +166,7 @@ for the page hero
             
 			padding: 25px 50px 75px 100px;
 			text-align: justify;
-  text-justify: auto;
+  
 		}
 		#aboutDesc{
 			text-align: justify;
@@ -181,7 +181,32 @@ for the page hero
     width: 130px;
     box-shadow: rgb(3, 99, 27) 2px 5px 5px;
 }
+@media(max-width:750px){
+    #theme-desc{
+        display: flex;
+        height: 200px;
+        justify-content: space-around;
+        
+        }
+        #desc-logo{
+            
+			padding: 25px 50px 75px 100px;
+			
+  
+		}
+		#aboutDesc{
+			text-align: justify;
+  text-justify: auto;
+		}
+}
 
+
+.theme-logo {
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    box-shadow: rgb(3, 99, 27) 2px 5px 5px;
+}
 /*=textarea
 prevent textarea from resize
 --------------------------------*/
